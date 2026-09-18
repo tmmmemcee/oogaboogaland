@@ -10,7 +10,8 @@
     ["bc1gui", 1788190400],
     ["RandyMcMillan", 1788210011, "sleeping"],
     ["MrHodlX", 1788200000],
-    ["timechainb", 1788171200]
+    ["timechainb", 1788171200],
+    ["Tmmmemcee", 1788225311]
   ].map(([name, unixSeconds, defaultState]) => ({ name, lastCommitAt: unixSeconds * 1e3, defaultState }));
   const SNAPSHOT_AT = 1788225311 * 1e3;
   const stateFor = (contributor, at = SNAPSHOT_AT) => {
@@ -36,7 +37,8 @@
     dplusplus1024: { build: "slim", hair: "#b9dcaa" },
     bc1gui: { skater: true, skin: "#f2a33c", hair: "#e4561f", fur: "#8f4f17" },
     RandyMcMillan: { bee: true, skin: "#f3b52a", hair: "#151515" },
-    timechainb: { anunnaki: true, skin: "#b8703c", hair: "#33200f" }
+    timechainb: { anunnaki: true, skin: "#b8703c", hair: "#33200f" },
+    Tmmmemcee: { bald: true, symmetricTusks: true, skin: "#c98a5b", hair: "#5c4425", fur: "#c98936" }
   };
   const SKINS = ["#c98a5b", "#a9744c", "#8a5a3a", "#d9a06b", "#b58057"];
   const HAIRS = ["#2b1b10", "#4a2c14", "#151312", "#5c4425", "#7a2e12"];
